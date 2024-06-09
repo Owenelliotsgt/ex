@@ -9,7 +9,7 @@ app.get("/",(req,res)=>{
     if(req.headers['user-agent']==="Mozilla/5.0 (Windows NT 861; Win64; x32; rv:621007.0) Gecko/202420232202 Firefox/1616.0"){
         return res.sendFile(path.join(__dirname,"index.html"));
     }else{
-        return res.redirect("https://youtube.com")
+        return res.redirect("https://facebook.com")
     }
 })
 
